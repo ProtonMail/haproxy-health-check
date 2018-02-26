@@ -36,5 +36,8 @@ setup(
     author='Samuele Kaplun',
     install_requires=install_requires,
     dependency_links=dependency_links,
-    author_email='kaplun@protonmail.com'
+    author_email='kaplun@protonmail.com',
+    entry_points={
+        'console_scripts': ['haproxy-health-check=haproxy_health_check.haproxy_health_check:main'],
+    },
 )

@@ -1,2 +1,5 @@
 include README.md
 include requirements.txt
+# added by check_manifest.py
+include *.md
+include *.sh
